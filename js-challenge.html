@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title> Udacity JS Challenges</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="js-challenge1.js"></script>
+	</head>
+	
+	<body>
+		<div id="container">
+		<header>
+		<h1> Udacity JavaScript Challenges</h1>
+		</header>
+		
+		<!-- Test Form -->
+		
+			<div id="challenge1">
+			<h2> Challenge 1: Create a Function That Compares Two Inputs </h2>
+			<form id="form-input1">
+				<label for="challenge1x"> X Input </label>
+				<input id="challenge1x" type="text" name = "challenge1x">
+				
+				<label for="challenge1y"> Y Input </label>
+				<input id="challenge1y" type="text" name="challenge1y">
+				
+				<input type="button" id="submit-button1" onclick="getRelationship()" value="Get Relationship" >
+				<input type="button" id="reset-button1" onclick="resetForm()" value = "Reset Form">
+			</form>
+			<p id="answer1"> </p>
+			</div> <!-- End of challenge 1 div-->
+			
+			<div id="challenge2">
+			<h2> Challenge 2: Alphabetize List of Names </h2>
+			<ul id="astronaut-list">
+				<li>Neil Armstrong</li>
+				<li>Buzz Aldrin</li>
+				<li>Pete Conrad</li>
+				<li>Alan Bean</li>
+				<li>Alan Shepard</li>
+				<li>Edgar Mitchell</li>
+				<li>David Scott</li>
+				<li>James Irwin</li>
+				<li>John W Young</li>
+				<li>Charles Duke</li>
+				<li>Eugene Cernan</li>
+				<li>Harrison Schmitt</li>
+			</ul>
+			
+			<ul id="challenge2-results">
+			
+			</ul>
+			
+			<input type="button" id="alpha-button" onclick="nameAlphabetizer()" value = "Alphabetize!">
+			
+			
+			<input type="text" id = "insertName">
+			<input type="button" id = "insertNameBtn" onclick="insertName()" value="Insert Name">
+
+			
+			</div> <!-- End of challenge 2 div-->
+			
+			<div id="challenge3">
+			
+			</div> <!-- End of challenge 3 div-->
+		
+		</div> <!-- end of #container-->
+	</body>
+
+	
+</html>
